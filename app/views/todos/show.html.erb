@@ -1,4 +1,4 @@
-<h1>Content you just added</h1>
+<h1>Action content</h1>
 
 <p>
     name: <%= @todo.name %>
@@ -6,3 +6,7 @@
 <p>
     description: <%= @todo.description %>
 </p>
+
+
+<%= link_to "Edit action", edit_todo_path(@todo) %> |
+<%= link_to "Return to actions", todos_path %>

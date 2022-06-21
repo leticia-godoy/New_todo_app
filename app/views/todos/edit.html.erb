@@ -1,4 +1,4 @@
-<h1>Editing toDo</h1>
+<h1>Editing action</h1>
 
 <% if @todo.errors.any? %>
     <h3>Incomplete Action</h3>
@@ -26,3 +26,5 @@
     </p>    
         
 <% end %>
+
+<%= link_to "Return to actions", todos_path %>
